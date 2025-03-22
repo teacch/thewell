@@ -10,6 +10,7 @@
     <link href="https://fonts.googleapis.com/css?family=Mansalva|Roboto&display=swap" rel="stylesheet">
 
     <link rel="stylesheet" href="fonts/icomoon/style.css">
+    <link href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css" rel="stylesheet"/>
 
     <link rel="stylesheet" href="css/bootstrap.min.css">
     <link rel="stylesheet" href="css/animate.min.css">
@@ -53,11 +54,12 @@
             <nav class="site-navigation text-left ml-auto " role="navigation">
               <ul class="site-menu main-menu js-clone-nav ml-auto d-none d-lg-block">
                 <li><a href="index.html" class="nav-link">Home</a></li>
-                <li class="active"><a href="about.html" class="nav-link">About Us</a></li>
+                <li><a href="about.html" class="nav-link">About Us</a></li>
                 <li><a href="causes.html" class="nav-link">Our Work</a></li>
                 <li><a href="blog.html" class="nav-link">Testimonials</a></li>
-                <li><a href="contact.html" class="nav-link">Contact Us</a></li>
-                <li><a href="contact.html" class="nav-link">Volunteer</a></li>
+                <li class="active"><a href="contact.html" class="nav-link">Contact Us</a></li>
+                <li><a href="joinus.html" class="nav-link">Our volunteers</a></li>
+                <button class="nav-button rounded-pill p-2 px-3 border-top-0 border-left-0"><a href="./donate.html" class="text-secondary">Donate Here</a></button>
               </ul>
             </nav>
   
@@ -130,9 +132,9 @@
               <ul class="list-unstyled footer-link">
                 <li class="d-block mb-3">
                   <span class="d-block text-muted small text-uppercase font-weight-bold">Address:</span>
-                  <span>34 Street Name, City Name Here, United States</span></li>
-                <li class="d-block mb-3"><span class="d-block text-muted small text-uppercase font-weight-bold">Phone:</span><span>+1 242 4942 290</span></li>
-                <li class="d-block mb-3"><span class="d-block text-muted small text-uppercase font-weight-bold">Email:</span><span>info@yourdomain.com</span></li>
+                  <span>11 Ademola Saka Cl, Oshodi-Isolo, Lagos 100264, Lagos.</span></li>
+                <li class="d-block mb-3"><span class="d-block text-muted small text-uppercase font-weight-bold">Phone:</span><span>+234 8135367213</span></li>
+                <li class="d-block mb-3"><span class="d-block text-muted small text-uppercase font-weight-bold">Email:</span><span>thewellteachersfoundation@gmail.com</span></li>
               </ul>
             </div>
           </div>
@@ -156,52 +158,62 @@
       </div>
     </div>
     
-    <footer class="site-footer bg-white">
+    <footer class="site-footer">
       <div class="container">
-        <div class="row">
+        <div class="row  d-flex justify-content-center align-items-center">
           <div class="col-md-6">
             <div class="row">
               <div class="col-md-7">
                 <h2 class="footer-heading mb-4">About Us</h2>
-                <p>We aim to bridge educational gaps by equipping teachers in low-income schools with the knowledge,
-                  skills, and resources they need to make a lasting impact. 
+                <p>We aim to bridge educational gaps by equipping teachers in low-income schools with the knowledge, skills, and resources they need to make a lasting impact. 
                 </p>
-  
+
               </div>
               <div class="col-md-4 ml-auto">
                 <h2 class="footer-heading mb-4">Features</h2>
                 <ul class="list-unstyled">
                   <li><a href="about.html">About Us</a></li>
-                  <li><a href="causes.html">Our Work</a></li>
-                  <li><a href="blog.html">Testimonials</a></li>
+                  <li><a href="#">Our Work</a></li>
+                  <li><a href="#">Testimonials</a></li>
                   <li><a href="#">Volunteer</a></li>
-                  <li><a href="contact.html">Contact Us</a></li>
+                  <li><a href="#">Contact Us</a></li>
                 </ul>
               </div>
-  
+
             </div>
           </div>
-          <div class="col-md-4 ml-auto">
-  
+          <div class="col-md-4">
+
             <div class="mb-5">
               <h2 class="footer-heading mb-4">Subscribe to Newsletter</h2>
               <form action="#" method="post" class="footer-suscribe-form">
                 <div class="input-group mb-3">
-                  <input type="text" class="form-control rounded-0 border-secondary text-white bg-transparent"
-                    placeholder="Enter Email" aria-label="Enter Email" aria-describedby="button-addon2">
+                  <input type="text" class="form-control rounded-0 border-secondary text-white bg-transparent" placeholder="Enter Email" aria-label="Enter Email" aria-describedby="button-addon2">
                   <div class="input-group-append">
                     <button class="btn btn-primary text-white" type="button" id="button-addon2">Subscribe</button>
                   </div>
                 </div>
+              </form>
+
             </div>
-  
-  
-            <h2 class="footer-heading mb-4">Follow Us</h2>
-            <!-- <a href="#about-section" class="smoothscroll pl-0 pr-3"><span class="icon-facebook"></span></a> -->
-            <!-- <a href="#" class="pl-3 pr-3"><span class="icon-twitter"></span></a> -->
-            <a href="#" class="pl-3 pr-3"><span class="icon-instagram"></span></a>
-            <!-- <a href="#" class="pl-3 pr-3"><span class="icon-linkedin"></span></a> -->
-            </form>
+
+            <div class="social-icons">
+              <h2 class="footer-heading mb-4">Follow Us</h2>
+              <a href="https://www.instagram.com/thewellteachersfoundation?igsh=MTJmdHlhZ3VtdWQ0ZQ==" target="social-frame">
+                <i class="bx bxl-instagram"></i>
+              </a>
+              <a href="https://www.linkedin.com/company/kawefellowship/" target="social-frame">
+               <i class="bx bxl-linkedin"></i>
+              </a>
+              <a href="https://wa.me/%2B2347089615017?text=Hello%20I%E2%80%99d%20like%20to%20make%20enquiries%20about%20the%20program%20" target="social-frame">
+                <i class="bx bxl-whatsapp"></i>
+              </a>
+              <a href="tel:+2348135367213" target="social-frame">
+                <i class='bx bx-phone'></i>
+              </a>
+              <iframe name="socialFrame" style="display: none;"></iframe>
+           </div>
+
           </div>
         </div>
       </div>

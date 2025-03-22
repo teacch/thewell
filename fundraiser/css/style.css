@@ -296,35 +296,175 @@ h1, h2, h3, h4, h5,
   -webkit-box-shadow: none !important;
   box-shadow: none !important; }
 
+
+
+
+.volunteer-card {
+  border-radius: 15px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s;
+}
+.volunteer-card:hover {
+  transform: scale(1.05);
+}
+.volunteer-img {
+    width: 120px;
+    /* height: 120px; */
+    object-fit: cover;
+}
+
+/* styling the join-us page */
+.volunteers-section {
+  padding: 20px;
+}
+
+.volunteers-section h1 {
+  text-align: center;
+  margin-block: 30px;
+}
+
+.volunteers-container {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+.volunteers-card {
+  background: white;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  width: 200px;
+}
+
+.volunteers-card img {
+  width: 100%;
+  border-radius: 50%;
+  height: 150px;
+  object-fit: cover;
+}
+
+.volunteers-card h3 {
+  margin: 10px 0;
+  color: #333;
+}
+
+.volunteers-card p {
+  color: gray;
+}
+/* styling the join us page done */
+
+/* styling call to volunteer section */
+.call-to-volunteer{
+  background-image: url(../images/bg2.jpeg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  height: 70vh;
+  margin-block: 40px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.call-to-volunteer-content{
+  background-color: #333;
+  min-height: 60px;
+  max-width: 600px;
+  padding: 40px;
+  border-radius: 10px;
+}
+
+/* styling call to volunteer section done */
+/* styling footer icons */
+.social-icons a {
+  margin-right: 15px;
+  /* display: block; */
+}
+
+.social-icons i {
+  font-size: 25px;
+  line-height: 1.4;
+  color: #ffffff;
+  transition: color 0.3s;
+}
+.social-icons i:hover {
+  color: #00a651;
+}
+/* styling footer icons done */
+
 .site-section {
-  padding: 2.5em 0; }
+  padding: 2.5em 0; 
+}
+/* #site-problem{
+  background-color: #00a651;
+  margin-top: -170px !important;
+  padding: 15px !important;
+} */
+
+/* styling about mission section */
+.mission-image{
+  height: 250px;
+}
+/* styling about mission section done */
+#site-team{
+    background-color: rgb(0, 166, 81, 0.2);
+    margin-top: -110px !important;
+    padding: 15px !important;
+}
+
+/* styling the latest causes */
+#site-causes{
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  /* border: 4px dashed rgb(165, 163, 163, 0.2); */
+  border: 4px dashed rgb(0, 166, 81, 0.2);
+}
+/* styling the latest causes */
+
+
   @media (min-width: 768px) {
     .site-section {
-      padding: 5em 0; } }
+      padding: 5em 0; 
+    } 
+  }
   .site-section.site-section-sm {
-    padding: 4em 0; }
+    padding: 4em 0; 
+}
 
+
+/* styling footer section */
 .site-footer {
   padding: 4em 0;
-  background-color: #c9ccd4; }
+  background-color: rgb(30, 42, 48, 0.9);
+ }
   @media (min-width: 768px) {
     .site-footer {
       padding: 8em 0; } }
   .site-footer .border-top {
     border-top: 1px solid rgba(255, 255, 255, 0.1) !important; }
   .site-footer p {
-    color: gray; }
+    /* color: gray;  */
+    color: #ffffff;
+  }
   .site-footer h2, .site-footer h3, .site-footer h4, .site-footer h5 {
     color: #000; }
   .site-footer a {
-    color: rgba(0, 0, 0, 0.5); }
+    /* color: rgba(0, 0, 0, 0.5);  */
+    color: #ffffff;
+  }
     .site-footer a:hover {
       color: #00a651; }
   .site-footer ul li {
     margin-bottom: 10px; }
   .site-footer .footer-heading {
-    font-size: 16px;
-    color: #000; }
+    font-size: 26px;
+    color: #ffffff; 
+  }
 
 .bg-text-line {
   display: inline;
@@ -470,7 +610,14 @@ h1, h2, h3, h4, h5,
   position: relative;
   top: 0;
   width: 100%;
-  padding: 1rem; }
+  padding: 1rem; 
+}
+.nav-link{
+  margin-inline: 8px !important;
+}
+.nav-link :hover{
+  color: #00a651 !important;
+}
   @media (max-width: 991.98px) {
     .site-navbar {
       padding-top: 3rem;
