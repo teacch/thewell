@@ -309,7 +309,7 @@ h1, h2, h3, h4, h5,
 }
 .volunteer-img {
     width: 120px;
-    /* height: 120px; */
+    height: 120px;
     object-fit: cover;
 }
 
@@ -425,7 +425,22 @@ h1, h2, h3, h4, h5,
   border: 4px dashed rgb(0, 166, 81, 0.2);
 }
 /* styling the latest causes */
+/* page */
+/* styling testimonial page */
+blockquote {
+  font-style: italic;
+  border-left: 4px solid #00a651;
+  padding: 10px 20px;
+  /* margin: 20px 0; */
+  background: #f9f9f9;
+}
+.testimonial p{
+  font-weight: 800;
+  font-style: oblique;
+  font-size: 15px;
 
+}
+/* styling testimonial page done */
 
   @media (min-width: 768px) {
     .site-section {
