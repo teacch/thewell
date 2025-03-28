@@ -414,6 +414,13 @@ h1, h2, h3, h4, h5,
     margin-top: -110px !important;
     padding: 15px !important;
 }
+.team-image img{
+  width: 100%;
+  border-radius: 50%;
+  height: 100px;
+  object-fit: cover;
+  
+}
 
 /* styling the latest causes */
 #site-causes{
@@ -421,7 +428,6 @@ h1, h2, h3, h4, h5,
   justify-content: center;
   align-items: center;
   flex-direction: column;
-  /* border: 4px dashed rgb(165, 163, 163, 0.2); */
   border: 4px dashed rgb(0, 166, 81, 0.2);
 }
 /* styling the latest causes */
